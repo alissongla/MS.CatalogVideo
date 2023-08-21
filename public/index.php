@@ -1,3 +1,6 @@
 <?php
+require_once __DIR__ . '/../vendor/autoload.php';
+use Core\Teste;
 
-phpinfo();
+$teste = new Teste();
+$teste->foo();
